@@ -8,7 +8,7 @@ All these components can be installed by [loki-stack](https://github.com/grafana
 
 - [Install K8s Cluster](#install-k8s-cluster)
 - [Install loki & grafana](#installing-loki-and-grafana)
-- [View Loki](#view-logs-on-grafana)
+- [View Logs in Grafana](#view-logs-in-grafana)
 - [Upgrade Loki](#upgrade-loki)
 - [Cleaning loki](#cleaning-up)
 
@@ -122,7 +122,7 @@ persistentvolumeclaim/loki-grafana     Bound    pvc-c43e141f-3318-4484-8e6a-cfa9
 persistentvolumeclaim/storage-loki-0   Bound    pvc-cec008c7-f9e5-444f-88ce-f36838c8f30a   50Gi       RWO            do-block-storage   2d13h
 ```
 
-## View logs on Grafana
+## View logs in Grafana
 
 - Fetch the Grafana password from your loki-stack installation
 
